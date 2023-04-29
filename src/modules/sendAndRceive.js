@@ -2,12 +2,11 @@ const url = 'https://us-central1-js-capstone-backend.cloudfunctions.net/api/game
 
 const getData = async () => {
   try {
-    const response = await fetch(url, 
+    const response = await fetch(url,
       {
-        mathod: 'GET'
-      }
-    );
-    
+        mathod: 'GET',
+      });
+
     const data = await response.json();
     return data;
   } catch (error) {

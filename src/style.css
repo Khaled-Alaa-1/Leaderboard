@@ -41,7 +41,7 @@ body {
   max-width: 1080px;
   background-color: #ffd89d;
   background-image: url('https://gifdb.com/images/high/anime-room-background-lejly8y4gv28wafl.webp');
-  background-size:cover ;
+  background-size: cover;
   background-repeat: no-repeat;
 }
 
@@ -61,22 +61,22 @@ select {
 
 h1 {
   width: 100%;
-  font-weight: 700!important;
+  font-weight: 700 !important;
   font-size: 3rem;
 }
 
-.Recent-scores{
+.Recent-scores {
   width: 300px;
   display: flex;
   justify-content: space-between;
 }
 
-.score-container{
+.score-container {
   background-color: #ffffff8f;
 }
 
 .main-list {
-width: 100%;
+  width: 100%;
 }
 
 ul {
