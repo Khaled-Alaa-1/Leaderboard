@@ -22,9 +22,9 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [To Do list] <a name="list structure"></a>
+# 📖 [LeaderBoard] <a name="list structure"></a>
 
->**ToDo List!** is my fourth project at Microverse, in this project I have created a basic list of tasks where the user can add a new task, mark as completed and delete all the completed tasks 
+>**ToDo List!** This is a project to deal with API and callbacks function to get the leaderboards.
 
 
 ## 🛠 Built With <a name="built-with">
@@ -52,7 +52,7 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo Link](https://khaled-alaa-1.github.io/To-Do-list/dist/)
+- [Live Demo Link](https://khaled-alaa-1.github.io/Leaderboard/dist/)
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- GETTING STARTED -->
@@ -74,7 +74,7 @@ Clone this repository to your desired folder:
 - clone the project using by running the following command :
 
 `git clone`
-`https://github.com/Khaled-Alaa-1/To-Do-list.git`
+`https://github.com/Khaled-Alaa-1/Leaderboard.git`
 
 
 
@@ -125,7 +125,6 @@ Give a ⭐️ if you like this project!
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
    I would like to thank Microverse.
-https://web.archive.org/web/20180320194056/http://www.getminimalist.com:80/
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -133,7 +132,7 @@ https://web.archive.org/web/20180320194056/http://www.getminimalist.com:80/
 
 ## 📝 License <a name="license"></a>
 
-This project is [MIT](https://github.com/Khaled-Alaa-1/To-Do-list/blob/list-structure/MIT.md) licensed.
+This project is [MIT](https://github.com/Khaled-Alaa-1/Leaderboard/blob/API/MIT.md) licensed.
 
 
 
