@@ -132,7 +132,7 @@ Give a ⭐️ if you like this project!
 
 ## 📝 License <a name="license"></a>
 
-This project is [MIT](https://github.com/Khaled-Alaa-1/Leaderboard/blob/API/MIT.md) licensed.
+This project is [MIT](https://github.com/Khaled-Alaa-1/Leaderboard/blob/Dev/MIT.md) licensed.
 
 
 
