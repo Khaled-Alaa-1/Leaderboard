@@ -19,6 +19,9 @@ module.exports = {
       },
     ],
   },
+  devServer: {
+    static: './dist',
+  },
 
   output: {
     filename: 'main.js',

@@ -1,6 +1,12 @@
+const url = 'https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/NgrPIMwCaT40cxvBVGme/scores/';
+
 const getData = async () => {
   try {
-    const response = await fetch('https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/NgrPIMwCaT40cxvBVGme/scores/');
+    const response = await fetch(url,
+      {
+        mathod: 'GET',
+      });
+
     const data = await response.json();
     return data;
   } catch (error) {

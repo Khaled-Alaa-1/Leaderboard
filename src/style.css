@@ -4,7 +4,7 @@
   padding: 0;
   border: 0;
   font-size: 100%;
-  font-family: inherit;
+  font-family: "Merienda", cursive;
   vertical-align: baseline;
 }
 
@@ -39,8 +39,10 @@ body {
   width: 70%;
   min-width: 762px;
   max-width: 1080px;
+  background-color: #ffd89d;
   background-image: url('https://gifdb.com/images/high/anime-room-background-lejly8y4gv28wafl.webp');
   background-size: cover;
+  background-repeat: no-repeat;
 }
 
 img,
@@ -57,9 +59,30 @@ select {
   font: inherit;
 }
 
+h1 {
+  width: 100%;
+  font-weight: 700 !important;
+  font-size: 3rem;
+}
+
+.Recent-scores {
+  width: 300px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.score-container {
+  background-color: #ffffff8f;
+}
+
+.main-list {
+  width: 100%;
+}
+
 ul {
   list-style: none;
-  border: 1px solid black;
+  height: auto;
+  box-shadow: 0 0 20px 10px #fff, 0 0 40px 20px rgb(171, 149, 5);
 }
 
 li {
@@ -99,7 +122,7 @@ header {
 .submitBtn,
 .inputName,
 .inputScore {
-  font-family: 'Hanalei Fill', cursive;
+  font-family: "Merienda", cursive;
   background-color: transparent;
 }
 
@@ -123,7 +146,6 @@ form {
 }
 
 .addYourScore {
-  border: 2px solid rgb(119, 102, 44);
   padding: 10px;
   transition: border-color 0.5s ease-in-out;
   box-shadow: 0 0 20px 10px #fff, 0 0 40px 20px rgb(171, 149, 5);
