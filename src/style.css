@@ -1,0 +1,157 @@
+/* Reset all margins, paddings, borders, and font sizes */
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font-family: "Merienda", cursive;
+  vertical-align: baseline;
+}
+
+/* Set box-sizing to border-box to make sizing calculations easier */
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+/* Remove list styles from ul and ol elements */
+ul,
+ol {
+  list-style: none;
+}
+
+/* Set the default link color */
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+/* Set the default text color and font family */
+body {
+  color: #333;
+  margin: 0 auto;
+  padding: 20px;
+  width: 70%;
+  min-width: 762px;
+  max-width: 1080px;
+  background-color: #ffd89d;
+  background-image: url('https://gifdb.com/images/high/anime-room-background-lejly8y4gv28wafl.webp');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+img,
+picture {
+  max-width: 100%;
+  display: block;
+}
+
+/* Inherit fonts for inputs and buttons */
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+h1 {
+  width: 100%;
+  font-weight: 700 !important;
+  font-size: 3rem;
+}
+
+.Recent-scores {
+  width: 300px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.score-container {
+  background-color: #ffffff8f;
+}
+
+.main-list {
+  width: 100%;
+}
+
+ul {
+  list-style: none;
+  height: auto;
+  box-shadow: 0 0 20px 10px #fff, 0 0 40px 20px rgb(171, 149, 5);
+}
+
+li {
+  padding: 5px 0 5px 5px;
+}
+
+li:nth-child(even) {
+  background-color: #ffd89d;
+}
+
+.refreshBtn,
+.submitBtn {
+  border: 1px solid black;
+  background-color: transparent;
+  padding: 5px;
+  cursor: pointer;
+}
+
+.main {
+  display: flex;
+  padding: 20px;
+
+  /* column-gap: 50px; */
+  justify-content: space-between;
+}
+
+.recentScores {
+  margin: 10px;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.refreshBtn,
+.submitBtn,
+.inputName,
+.inputScore {
+  font-family: "Merienda", cursive;
+  background-color: transparent;
+}
+
+ul,
+form {
+  margin: 20px 0 0 0;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+  row-gap: 20px;
+}
+
+.inputName,
+.inputScore {
+  width: 100%;
+  border: 1px solid black;
+  padding: 5px;
+}
+
+.addYourScore {
+  padding: 10px;
+  transition: border-color 0.5s ease-in-out;
+  box-shadow: 0 0 20px 10px #fff, 0 0 40px 20px rgb(171, 149, 5);
+  background-color: #ffd89da1;
+}
+
+.animated-border:hover {
+  border-color: rgb(92, 10, 10);
+}
