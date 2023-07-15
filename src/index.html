@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>LeaderBoard</title>
+  <link href="https://fonts.googleapis.com/css2?family=Merienda:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <header>
+    <h1 >LeaderBoard</h1>
+  </header>
+    <div class="main">
+    <section>
+      <div class="main-list">
+        <div  class="Recent-scores">
+          <h2 class="recentScores">Recent scores</h2>
+          <input type="button" value="Refresh" class="refreshBtn">
+        </div>
+        <ul class="score-container">
+
+        </ul>
+      </div>
+    </section>
+    <section>
+      <div class="addYourScore">
+        <h2>Add your score</h2>
+        <form id="inputsScore" method='post' action="/">
+        <input type="text" class="inputName" placeholder="Your name" pattern="[A-Za-z]+"
+         title="Please enter only alphabetical characters"
+         onkeypress="return /[a-zA-Z]/.test(event.key);">
+        <input type="number" class="inputScore" placeholder="Your score">
+        <input type="button" value="Submit" class="submitBtn" id="submitBtn">
+      </form>
+      </div>
+    </section>
+  </div>
+  <scrip src="index.js"> </script>
+</body>
